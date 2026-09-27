@@ -1,0 +1,12 @@
+# weights are downloaded on first run
+*.pt
+# outputs
+output*.mp4
+runs/
+*.gif
+!assets/*.gif
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/

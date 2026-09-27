@@ -1,0 +1,15 @@
+# Runtime requirements for speed_violation_demo.py (YOLOv5 pinned at 724d5b2, June 2022)
+torch>=1.7.0
+torchvision>=0.8.1
+numpy>=1.18.5
+opencv-python>=4.1.1
+Pillow>=7.1.2
+PyYAML>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1
+pandas>=1.1.4
+seaborn>=0.11.0
+matplotlib>=3.2.2
+tqdm>=4.41.0
+psutil
+setuptools<81   # the 2022 YOLOv5 code imports pkg_resources, removed in setuptools 81
